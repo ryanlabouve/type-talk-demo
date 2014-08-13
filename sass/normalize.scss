@@ -1,5 +1,12 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
+
+/* 0. BORDER BOX MAGIC */
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
