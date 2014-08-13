@@ -60,7 +60,7 @@ blockquote {
 	font-size: 19px;
 	line-height: 28.102px;
 	margin-top: 19px;
-	margin-bottom: 19px;
+	margin-bottom: 29px;
 	margin-left: 39.736px;
 	margin-right: 39.736px;
 }
@@ -88,4 +88,16 @@ a:link, a:visited {
 }
 a:hover, a:active {
 	color: lighten(#27ACFB, 10);
+}
+
+.dropcap {
+	height: 79px;
+	float: left;
+	padding-right: 11px;
+}
+
+.gargoyle {
+	display: block;
+	width: 61%;
+	margin: auto;
 }
