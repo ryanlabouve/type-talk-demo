@@ -375,7 +375,9 @@ th {
    * For IE 6/7 only
    * Include this rule to trigger hasLayout and contain floats.
    */
-  *zoom: 1; }
+  *zoom: 1;
+  max-width: 1100px;
+  margin: auto; }
   .container:before, .container:after {
     content: " ";
     /* 1 */
