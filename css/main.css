@@ -372,7 +372,8 @@ th {
  */
 body {
   font-family: 'Merriweather', Georgia, serif;
-  font-size: 100%; }
+  font-size: 100%;
+  color: #333; }
 
 p {
   font-size: 16px;
@@ -393,13 +394,17 @@ h1 {
   font-size: 112.338px;
   line-height: 112.338px;
   margin-top: 1em;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  letter-spacing: -0.03em; }
 
 h2 {
   font-size: 39.736px;
   line-height: 63.961px;
   margin-top: 39.736px;
-  margin-bottom: 39.736px; }
+  margin-bottom: 39.736px;
+  letter-spacing: -0.02em;
+  word-spacing: -0.1em;
+  font-weight: 900; }
 
 h3 {
   font-size: 28px;
@@ -413,7 +418,9 @@ blockquote {
   margin-top: 19px;
   margin-bottom: 29px;
   margin-left: 39.736px;
-  margin-right: 39.736px; }
+  margin-right: 39.736px;
+  font-style: italic;
+  color: #C7C7C7; }
 
 .container {
   /**
@@ -435,6 +442,12 @@ aside {
   width: 39%;
   padding-right: 63.961px;
   float: left; }
+  aside footer {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: #999; }
 
 article {
   width: 61%;
