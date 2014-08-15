@@ -94,7 +94,7 @@ aside {
 }
 article {
 	width: 61%;
-	float: left;
+	float: right;
 }
 
 a:link, a:visited {
@@ -116,3 +116,25 @@ a:hover, a:active {
 	width: 61%;
 	margin: auto;
 }
+
+@media screen and (max-width: 1100px) {
+  body { font-size: 90%;}
+}
+
+@media screen and (max-width: 840px) {
+	body {
+		padding-left: 2.827em;
+		padding-right: 2.827em;
+	}
+  aside { float: none;}
+  article { 
+  	float: none;
+  	width: 90%; 
+  	margin: auto;
+  }
+}
+
+@media screen and (max-width: 590px) {
+ body { font-size: 75%; }
+}
+ 
