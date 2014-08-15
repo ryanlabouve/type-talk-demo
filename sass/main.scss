@@ -22,52 +22,53 @@ body {
 
 p {
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 1.756em; /* 28px / 16 = 1.756em */
 	margin-top: 0;
-	margin-bottom: 31.990px;
-	max-width: 635px;
+	margin-bottom: 1.999em; /* 31.990px / 16 = 1.999em */
+	max-width: 39.88em; /* 635 / 16 = 39.88em */
 }
 aside p {
-	font-size: 14.055px;
-	line-height: 22px;
+	font-size: 0.878em; /* 14.055 / 16 = 0.878em */
+	line-height: 1.565em; /* 22 / 14.055 = 1.565em */
 }
 
 .author {
-	font-size: 19px;
-	line-height: 19px;
+	font-size: 1.1875em; /* 19px / 16px = 1.1875em */
+	line-height: 1em; /* 19px / 19px = 1em */
 }
+
 h1 {
-	font-size: 112.338px;
-	line-height: 112.338px;
+	font-size: 7.021em; /* 112.338px / 16px = 7.021em */
+	line-height: 1em;
 	margin-top: 1em;
 	margin-bottom: 0;
 	letter-spacing: -0.03em;
 }
 
 h2 {
-	font-size: 39.736px;
-	line-height: 63.961px;
-	margin-top: 39.736px;
-	margin-bottom: 39.736px;
+	font-size: 2.484em; /* 39.736px / 16px = 2.484em */
+	line-height: 1.61em; /* 63.961px / 39.736px = 1.61em */
+	margin-top: 1em;
+	margin-bottom: 1em;
 	letter-spacing: -0.02em;
 	word-spacing: -0.1em;
 	font-weight: 900;
 }
 
 h3 {
-	font-size: 28px;
-	line-height: 39px;
-	margin-top: 39px;
-	margin-bottom: 14px;
+	font-size: 1.756em; /* 28px / 16px = 1.756em */
+	line-height: 1.39em; /* 39px / 28px = 1.39em */
+	margin-top: 1.39em;
+	margin-bottom: 0.5em; /* 14px / 28 = 0.5em */
 }
 
 blockquote {
-	font-size: 19px;
-	line-height: 28.102px;
-	margin-top: 19px;
-	margin-bottom: 29px;
-	margin-left: 39.736px;
-	margin-right: 39.736px; 
+	font-size: 1.1875em; /* 19px / 16px = 1.1875em */
+	line-height: 1.479em; /* 28.102px / 19px = 1.479em */
+	margin-top: 1em;
+	margin-bottom: 1.8125em; /* 29px / 16px = 1.8125em */
+	margin-left: 2.091em; /* 39.736 / 19px = 2.091em */
+	margin-right: 2.091em; 
 	font-style: italic;
 	color: #C7C7C7;
 }
@@ -75,18 +76,18 @@ blockquote {
 // Main Styles
 .container {
 	@include cf;
-	max-width: 1022.145px;
+	max-width: 63.884em; /* 1022.145px / 16px = 63.884em */
 	margin: auto;
 }
 
 aside {
 	width: 39%;
-	padding-right: 63.961px;
+	padding-right: 3.998em; /* 63.961px / 16px = 3.998em */ 
 	float: left;
 	footer {
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 0.75em; /* 12 / 16 = 0.75em */
 		letter-spacing: 0.03em;
 		color: #999;
 	}
@@ -105,9 +106,9 @@ a:hover, a:active {
 }
 
 .dropcap {
-	height: 79px;
+	height: 4.9375em; /* 79px / 16px = 4.9375em */
 	float: left;
-	padding-right: 11px;
+	padding-right: 0.6875em; /* 11px / 16px = 0.6875em */
 }
 
 .gargoyle {
